@@ -1,3 +1,4 @@
+import { LoginSocialComponent } from './../login-social/login-social.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -16,6 +17,8 @@ import { LoginPage } from './login.page';
     IonicModule,
     LoginPageRoutingModule
   ],
-  declarations: [LoginPage]
+  declarations: [
+    LoginPage,
+    LoginSocialComponent]
 })
-export class LoginPageModule {}
+export class LoginPageModule { }

@@ -1,0 +1,29 @@
+.divider {
+    display: flex;
+    &::before,
+    &::after {
+        content: "";
+        flex   : 1;
+    }
+}
+
+.divider {
+    display: flex;
+    &::before,
+    &::after {
+        content: "";
+        flex   : 1;
+    }
+}
+
+.line {
+    align-items: center;
+    margin     : 0.5em 1em;
+    color      : #cccccc;
+    &::before,
+    &::after {
+        height: 1px;
+        margin: 0 1em;
+        background-color: #cccccc;
+    }
+}

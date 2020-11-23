@@ -8,10 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistroPage implements OnInit {
 
-  loginForm = this.formBuilder.group({
-    username: ['', [Validators.required]],
-    password: ['', [Validators.required]]
-  });
+  
   constructor(
     private formBuilder: FormBuilder
   ) { }

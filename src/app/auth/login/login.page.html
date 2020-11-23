@@ -1,9 +1,5 @@
 <ion-content>
-    <ion-row class="ion-justify-content-center ion-margin-bottom ion-padding-top">
-        <img
-            src="assets/img/tukin_food.png"
-            height="180px"
-        >
+    <ion-row class="ion-justify-content-center ion-margin-bottom ion-padding-top img-container" style="height: 25vh;">        
     </ion-row>
     <form
         [formGroup]="loginForm"
@@ -61,28 +57,9 @@
         <ion-col
             size="10"
             class="ion-text-center"
-        >
-            <span class="divider line one-line">or</span>
+        >            
         </ion-col>
     </ion-row>
-    <ion-row
-        nowrap
-        class="ion-justify-content-center"
-    >
-        <ion-fab-button
-            size="small"
-            (click)="loginFacebook()"
-        >
-            <ion-icon name="logo-facebook"></ion-icon>
-        </ion-fab-button>
-
-        <ion-fab-button
-            size="small"
-            fill="outline"
-            color="danger"
-        >
-            <ion-icon name="logo-google"></ion-icon>
-        </ion-fab-button>
-
-    </ion-row>
+    <app-login-social></app-login-social>
+    
 </ion-content>

@@ -5,7 +5,6 @@
             height="180px"
         >
     </ion-row>
-
     <form>
         <ion-grid>
             <ion-row class="ion-justify-content-center">
@@ -35,41 +34,25 @@
                         color="danger"
                         type="submit"
                     >
-                        Iniciar sesión
+                        Registrarse
                     </ion-button>
                 </ion-col>
             </ion-row>
         </ion-grid>
     </form>
-    <p class="ion-text-center">¿Aún no te has registrado?</p>
+    <p class="ion-text-center">¿Ya estás registrado?</p>
     <ion-row class="ion-justify-content-center">
         <ion-col
             size="10"
             class="ion-text-center"
         >
-            <a routerLink='/registrar'>Regístrate</a>
+            <a routerLink='/login'>Inicia sesión</a>
         </ion-col>
         <ion-col
             size="10"
             class="ion-text-center"
-        >
-            <span class="divider line one-line">or</span>
+        >            
         </ion-col>
     </ion-row>
-    <ion-row
-        nowrap
-        class="ion-justify-content-center"
-    >
-        <ion-fab-button size="small">
-            <ion-icon name="logo-facebook"></ion-icon>
-        </ion-fab-button>
-
-        <ion-fab-button
-            size="small"
-            fill="outline"
-            color="danger"
-        >
-            <ion-icon name="logo-google"></ion-icon>
-        </ion-fab-button>
-    </ion-row>
+    <app-login-social></app-login-social>
 </ion-content>

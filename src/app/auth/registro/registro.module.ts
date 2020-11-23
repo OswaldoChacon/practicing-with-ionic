@@ -1,3 +1,4 @@
+import { LoginSocialComponent } from './../login-social/login-social.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -15,6 +16,9 @@ import { RegistroPage } from './registro.page';
     IonicModule,
     RegistroPageRoutingModule
   ],
-  declarations: [RegistroPage]
+  declarations: [
+    RegistroPage,
+    LoginSocialComponent    
+  ]
 })
 export class RegistroPageModule {}
