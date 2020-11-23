@@ -49,3 +49,16 @@
 a {
   text-decoration: none;
 }
+
+.img-logo {
+  // background         : url('../../../assets/img/tukin_food.png');
+  background         : url('./assets/img/tukin_food.png');
+  background-repeat  : no-repeat;
+  background-size    : contain;
+  background-position: center;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}
