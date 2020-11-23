@@ -1,0 +1,17 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "foodApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "server": {
+    "url": "http://172.16.0.73:8100",
+    "cleartext": true
+  }
+}
