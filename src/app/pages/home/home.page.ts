@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
-  custom = {
-    centeredSlides: false,
-    slidesPerView: 4.5,    
+  options = {          
+  }
+  options2 = {
+    slidesPerView: 1.5,
+    spaceBetween: 20
   }
   constructor() { }
 

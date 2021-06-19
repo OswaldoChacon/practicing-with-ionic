@@ -3,12 +3,10 @@ ion-avatar {
     border : 2px solid #97cdec;
 }
 
-.me {
-    border  : 2px solid #229ce2;
-    position: relative;
-    overflow: visible !important;
+.banner {
+    height: 150px;
 }
 
-.banner {
-    height: 20vh;
+ion-slide{
+    max-height: max-content
 }
